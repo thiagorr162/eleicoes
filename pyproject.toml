@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "template"
+name = "eleicoes"
 version = "0.1.0"
 description = "Use this config file as template for your project."
 authors = ["Your Name <you@example.com>"]
@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+jupyterlab = "^4.2.5"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
+notebook = "^7.2.2"
 
 [tool.black]
 line-length = 120
